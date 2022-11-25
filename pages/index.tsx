@@ -297,7 +297,7 @@ const Home: NextPage = () => {
 
           <footer className='container mx-auto mt-2 items-center justify-between space-y-2 px-3 pb-8 sm:flex sm:space-y-0 md:px-6'>
             <div className='flex items-center space-x-1 font-semibold'>
-            Deployed by the&nbsp;
+            Presented by&nbsp;
             <a className='text-[#ec6d1f] hover:text-[#e02b20] hover:underline' href='https://www.dragonsteaching.com' >
             Dragons Teaching
             </a>
