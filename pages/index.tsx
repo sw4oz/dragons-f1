@@ -305,7 +305,7 @@ const Home: NextPage = () => {
             
 
             <a
-              href='https://github.com/planetscale/f1-championship-stats'
+              href='https://github.com/sw4oz/dragons-f1'
               className='flex items-center space-x-1 font-semibold'
             >
               <span>View on</span> <SVG src='github-icon.svg' />
