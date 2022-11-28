@@ -126,7 +126,7 @@ const Home: NextPage = () => {
           Dragons Teaching R&D Department.'
         />
         <!--<link rel='icon' href='/favicon.png' />-->
-        <link rel="icon" type="image/x-icon" href="https://dragonsteaching.com/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href='https://dragonsteaching.com/favicon.ico' />
       </Head>
 
       <header className='container mx-auto items-end justify-between space-y-2 px-3 pt-4 pb-4 md:flex md:px-6 md:pb-2 md:pt-8'>
