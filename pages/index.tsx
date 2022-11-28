@@ -125,7 +125,7 @@ const Home: NextPage = () => {
           content='F1 Constructors Championship standings week-by-week. Powered by edge functions and PlanetScale. Deployed by the 
           Dragons Teaching R&D Department.'
         />
-        <link rel='icon' href='/public/favicon.ico />
+        <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <header className='container mx-auto items-end justify-between space-y-2 px-3 pt-4 pb-4 md:flex md:px-6 md:pb-2 md:pt-8'>
@@ -284,7 +284,7 @@ const Home: NextPage = () => {
               <p className='lg:w-3/4 text-[#ec6d1f] font-bold'>`&mdash;`</p>
               <h3 className='text-sm font-semibold'>Dragons Teaching:</h3>
               <p className='lg:w-3/4'>
-                `&#x2022;``&nbsp;`The idea here is to have one PlanetScale master database, also known as <strong>`&apos;`the brain`&apos;`</strong>, where all Dragons`&apos;` user (or client) information will be stored. From there, the static/serveless applications will pull the data using the existing PlanetScale API as demonstrated here by this app which pulls Formula 1 Constructor championship stats from various cloud sources. 
+                `&#x2022;``&nbsp;`The idea here is to have one PlanetScale master database, also known as `'the brain'`, where all Dragons`'` user (or client) information will be stored. From there, the static/serveless applications will pull the data using the existing PlanetScale API as demonstrated here by this app which pulls Formula 1 Constructor championship stats from various cloud sources. 
               </p>
               <p className='lg:w-3/4'>
                 `&#x2022;``&nbsp;`As mentioned in the <a className='text-[#ec6d1f] hover:text-[#e02b20] hover:underline font-semibold' href='#'>Blueprint</a> document, the goal of this implementation is be to reduce server strain and therefore cost, while also modernising the platforms and making them more scalable for the future.
