@@ -125,7 +125,7 @@ const Home: NextPage = () => {
           content='F1 Constructors Championship standings week-by-week. Powered by edge functions and PlanetScale. Deployed by the 
           Dragons Teaching R&D Department.'
         />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/favicon.png' />
       </Head>
 
       <header className='container mx-auto items-end justify-between space-y-2 px-3 pt-4 pb-4 md:flex md:px-6 md:pb-2 md:pt-8'>
