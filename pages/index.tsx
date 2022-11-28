@@ -125,7 +125,7 @@ const Home: NextPage = () => {
           content='F1 Constructors Championship standings week-by-week. Powered by edge functions and PlanetScale. Deployed by the 
           Dragons Teaching R&D Department.'
         />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/public/favicon.ico' />
       </Head>
 
       <header className='container mx-auto items-end justify-between space-y-2 px-3 pt-4 pb-4 md:flex md:px-6 md:pb-2 md:pt-8'>
@@ -297,7 +297,7 @@ const Home: NextPage = () => {
 
           <footer className='container mx-auto mt-2 items-center justify-between space-y-2 px-3 pb-8 sm:flex sm:space-y-0 md:px-6'>
             <div className='flex items-center space-x-1 font-semibold'>
-            Deployed by &nbsp;
+            Deployed by&nbsp;
             <a className='text-[#ec6d1f] hover:text-[#e02b20] hover:underline' href='https://www.dragonsteaching.com' >
             Dragons Teaching
             </a>
