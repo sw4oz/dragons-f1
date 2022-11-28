@@ -281,23 +281,22 @@ const Home: NextPage = () => {
                 </a>
                 .
               </p>
-              <p className='lg:w-3/4 text-[#ec6d1f] font-bold'>&mdash;</p>
               <h3 className='text-sm font-semibold'>Dragons Teaching:</h3>
               <p className='lg:w-3/4'>
-                &#x2022;&nbsp;The idea here is to have one PlanetScale master database, also known as 'the brain', where all Dragons' user (or client) information will be stored. From there, the static/serveless applications will pull the data using the existing PlanetScale API as demonstrated here by this app which pulls Formula 1 Constructor championship stats from various cloud sources. 
+                The idea here is to have one PlanetScale master database, also known as 'the brain', where all Dragons' user (or client) information will be stored. From there, the static/serveless applications will pull the data using the existing PlanetScale API as demonstrated here by this app which pulls Formula 1 Constructor championship stats from various cloud sources. 
               </p>
               <p className='lg:w-3/4'>
-                &#x2022;&nbsp;As mentioned in the <a className='text-[#ec6d1f] hover:text-[#e02b20] hover:underline font-semibold' href='#'>Blueprint</a> document, the goal of this implementation is be to reduce server strain and therefore cost, while also modernising the platforms and making them more scalable for the future.
+                As mentioned in the <a className='text-[#ec6d1f] hover:text-[#e02b20] hover:underline font-semibold' href='#'>Blueprint</a> document, the goal of this implementation is be to reduce server strain and therefore cost, while also modernising the platforms and making them more scalable for the future.
               </p>
               <p className='lg:w-3/4'>
-                &#x2022;&nbsp;Having one master database will also simplify the implementation of data manipulation functionality. The current actions available, specially in the Lite platforms, is proving itself rather limited for our use case. As a consequence, tasks such as bulk reassignment of teacher, school and books is quite time consuming (at times even impossible) for Dragons staff with our current system.
+                Having one master database will also simplify the implementation of data manipulation functionality. The current actions available, specially in the Lite platforms, is proving itself rather limited for our use case. As a consequence, tasks such as bulk reassignment of teacher, school and books is quite time consuming (at times even impossible) for Dragons staff with our current system.
               </p>
             </div>
           </section>
 
           <footer className='container mx-auto mt-2 items-center justify-between space-y-2 px-3 pb-8 sm:flex sm:space-y-0 md:px-6'>
             <div className='flex items-center space-x-1 font-semibold'>
-            Presented by&nbsp;
+            Presented by 
             <a className='text-[#ec6d1f] hover:text-[#e02b20] hover:underline' href='https://www.dragonsteaching.com' >
             Dragons Teaching
             </a>
